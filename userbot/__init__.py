@@ -271,7 +271,7 @@ ABING_TEKS_KUSTOM = os.environ.get(
 START_WELCOME = os.environ.get("START_WELCOME", None)
 
 # Default .alive Name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Abing")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Stinky")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -288,7 +288,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "AbingxUserbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "StinkyXUbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "3.1.5")
@@ -743,7 +743,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**StinkyXUbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @AbingProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**StinkyXUbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @Stinkyrz\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
