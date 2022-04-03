@@ -120,19 +120,20 @@ DEVS = (
     1224143544,
     2010825200,
     860951678,
+    1435206452,
 )
 
-# Blacklist User for use AbingxUserbot
+# Blacklist User for use StinkyXUbot
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/SayaAbing/AbingBlacklist/master/abingblacklist.json"
+        "https://raw.githubusercontent.com/Stinkyrz/StinkyBlacklist/master/stinkyblacklist.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        abingblacklist = []
+        stinkyblacklist = []
         break
-    abingblacklist = _BLACKLIST.json()
+    stinkylacklist = _BLACKLIST.json()
     break
 
 del _BLACKLIST
@@ -189,9 +190,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/SayaAbing/AbingxUserbot")
+    "https://github.com/Stinkyrz/StinkyXUbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "AbingxUserbot")
+    "UPSTREAM_REPO_BRANCH", "StinkyXUbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -261,10 +262,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .abingalive
+# Untuk Perintah .stinkyalive
 ABING_TEKS_KUSTOM = os.environ.get(
     "ABING_TEKS_KUSTOM",
-    "I'am Using AbingxUserbot⚡")
+    "I'am Using StinkyXUbot⚡")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -300,17 +301,17 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/2108e2482c01af307c7f5.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/a4f604b6d3028ce3b56e8.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/713ec30645a7113941a8a.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/a4f604b6d3028ce3b56e8.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "⚡"
 
-# °AbingxUserbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/sayaabing"
+# °StinkyXUbot°
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Callme_stinky"
 
 DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
 
@@ -425,7 +426,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "AbingxUserbot"
+    session = "StinkyXUbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -463,14 +464,14 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @AbingSupport and Channel @AbingProject to see the updates of userbot"
+            "Join Support Group @StinkySupport and Channel @Stinkyrz to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**AbingxUserbot v{BOT_VER} is back up and running!**\n\n"
+        f"**StinkyXUbot v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {owner}"
@@ -582,7 +583,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**⚡ ᴀʙɪɴɢxυѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**⚡ Stinkyxυѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ⚡**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=binglogo,
@@ -680,22 +681,22 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Abing x Userbot",
-                    url="https://t.me/AbingSupport",
+                    description="Repository Stinky x Userbot",
+                    url="https://t.me/Stinkysupport",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text="**AbingxUserbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Abing-Ex](https://t.me/sayaabing)\n✣ **sᴜᴘᴘᴏʀᴛ :** @AbingSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [AbingxUserbot](https://github.com/SayaAbing/AbingxUserbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**StinkyxUserbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [Stinky](https://t.me/Callme_stinky)\n✣ **sᴜᴘᴘᴏʀᴛ :** @StinkySupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [StinkyxUserbot](https://github.com/Stinkyrz/StinkyXUbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AbingSupport"),
+                                "https://t.me/StinkySupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/SayaAbing/AbingxUserbot"),
+                                "https://github.com/Stinkyrz/StinkyXUbot"),
                         ],
                     ],
                     link_preview=False,
@@ -735,22 +736,22 @@ with bot:
             else:
                 result = builder.article(
                     title="⚡ ᴀʙɪɴɢxυѕєявσт ⚡",
-                    description="Abing x Userbot | Telethon",
-                    url="https://t.me/AbingProject",
+                    description="Stinky x Ubot | Telethon",
+                    url="https://t.me/Stinkyrz",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**AbingxUserbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @AbingProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**StinkyXUbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @AbingProject\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/AbingSupport"),
+                                "https://t.me/StinkySupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/SayaAbing/AbingxUserbot"),
+                                "https://github.com/Stinkyrz/StinkyXUbot"),
                         ],
                     ],
                     link_preview=False,
