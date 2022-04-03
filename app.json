@@ -1,7 +1,7 @@
 {
-  "name": "AbingxUserbot",
-  "description": "ABINGxUSERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/8dad04830561de07c35d7.jpg",
+  "name": "StinkyXUbot",
+  "description": "StinkyXUbot KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/67333eea586e11c81b67e.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SayaAbing/AbingxUserbot",
-  "telegram": "https://t.me/aabinggg",
-  "success_url": "https://t.me/AbingSupport",
+  "repository": "https://github.com/Stinkyrz/StinkyXUbot",
+  "telegram": "https://t.me/Callme_stinky",
+  "success_url": "https://t.me/StinkySupport",
   "stack": "container",
   "env": {
     "API_KEY": {
