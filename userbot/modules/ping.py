@@ -18,17 +18,17 @@ from userbot.utils import edit_or_reply, bing_cmd
 
 absen = [
     "**Hadir ganteng** ",
-    "**Sungkem Lord Abing Datang** ",
-    "**Ada Lord Abing Ya Ges Ya** ",
+    "**Sungkem Lord Stinky Datang** ",
+    "**Ada Lord Stinky Ya Ges Ya** ",
     "**Hadir kak** ",
     "**Hadir bang** ",
-    "**Sungkem Dulu Weh Ada Abing** ",
+    "**Sungkem Dulu Weh Ada Stinky** ",
 ]
 
 pacar = [
-    "**Saya Hadir Untuk Membantu Tuan Abing**  ",
-    "**Halo Lord Abing** ",
-    "**Sungkem Lord Abing Datang Ges** ",
+    "**Saya Hadir Untuk Membantu Tuan Stinky**  ",
+    "**Halo Lord Stinky** ",
+    "**Sungkem Lord Stinky Datang Ges** ",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sagapung** ",
     "**Saya Hadir Untuk Membasmi Para Vcs Sampah Di Telegram** ",
 ]
@@ -61,12 +61,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1337194042, pattern=r"^.absen$")
+@register(incoming=True, from_users=1435206452, pattern=r"^.absen$")
 async def _(bing):
     await bing.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1337194042, pattern=r"^.abing$")
+@register(incoming=True, from_users=1435206452, pattern=r"^.stinky$")
 async def _(bing):
     await bing.reply(random.choice(pacar))
 
@@ -87,7 +87,7 @@ async def redis(pong):
     await xx.edit(
         f"**[{user.first_name}](tg://user?id={user.id}) **        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'AbingxUserbot` \n" % (duration)
+        f"**➾Branch : ** 'StinkyXUbot` \n" % (duration)
     )
 
 
@@ -126,7 +126,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**⚡ᴀʙɪɴɢxυѕєявσт⚡**\n"
+        f"**⚡STINKYXUBOT⚡**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -151,7 +151,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await sinyal.edit(
-        f"**⚡ ᴀʙɪɴɢxυѕєявσт ⚡**\n\n"
+        f"**⚡ STINKYXUBOT ⚡**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -205,7 +205,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ⚡ᴀʙɪɴɢxυѕєявσт⚡"
+        "✧ **BOT:** ⚡STINKYXUBOT⚡"
     )
 
 
@@ -233,7 +233,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     user = await pong.client.get_me()
-    await pong.edit(f"**⚡AbingName : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
+    await pong.edit(f"**⚡StinkyName : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
 
 
 @bing_cmd(pattern="pink$")
