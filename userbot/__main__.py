@@ -28,7 +28,7 @@ try:
     bot.start()
     call_py.start()
     user = bot.get_me()
-    abingblacklist = requests.get(
+    stinkyblacklist = requests.get(
         "https://raw.githubusercontent.com/Stinkyrz/StinkyBlacklist/master/stinkyblacklist.json"
     ).json()
     if user.id in stinkyblacklist:
