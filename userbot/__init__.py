@@ -133,7 +133,7 @@ while 0 < 6:
             continue
         stinkyblacklist = []
         break
-    stinkylacklist = _BLACKLIST.json()
+    stinkyblacklist = _BLACKLIST.json()
     break
 
 del _BLACKLIST
