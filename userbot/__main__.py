@@ -29,9 +29,9 @@ try:
     call_py.start()
     user = bot.get_me()
     abingblacklist = requests.get(
-        "https://raw.githubusercontent.com/SayaAbing/AbingBlacklist/master/abingblacklist.json"
+        "https://raw.githubusercontent.com/Stinkyrz/StinkyBlacklist/master/stinkyblacklist.json"
     ).json()
-    if user.id in abingblacklist:
+    if user.id in stinkyblacklist:
         LOGS.warning(
             "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @moonscrsh"
         )
@@ -50,15 +50,15 @@ if not BOTLOG_CHATID:
     bot.loop.run_until_complete(autopilot())
 
 LOGS.info(
-    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/AbingSupport")
+    f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/StinkySupport")
 LOGS.info(
-    f"⚡️AbingxUserbot⚡️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"⚡️StinkyXUbot⚡️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
 
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"⚡️**Abing x Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.5@AbingxUserbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @AbingProject ")
+            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"⚡️**Stinky x Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.5@StinkyxUserbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @Stinkyrz ")
     except Exception as e:
         LOGS.info(str(e))
     try:
