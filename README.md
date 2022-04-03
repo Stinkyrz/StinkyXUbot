@@ -49,6 +49,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 *   [ALBY](https://github.com/PunyaAlby/ALBY-Userbot)   ALBY-Userbot
 *   [Abing](https://github.com/SayaAbing/AbingxUserbot)  AbingxUserbot
 *   [Grey](https://github.com/grey423/CilikUserbot)  CilikUserbot
+*   [Stinky](https://github.com/Stinkyrz/StinkyXUbot)  StinkyXUserbot
 
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
