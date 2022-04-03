@@ -8,7 +8,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get install -y nodejs && \
     npm i -g npm
     
-RUN git clone -b StinkyxUbot https://github.com/Stinkyrz/StinkyXUbot /root/userbot
+RUN git clone -b StinkyXUbot https://github.com/Stinkyrz/StinkyXUbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
