@@ -17,7 +17,7 @@ from userbot import (
     BOT_VER,
     LOGS,
     ALIVE_NAME,
-    abingblacklist,
+    stinkyblacklist,
     bot,
     call_py,
 )
