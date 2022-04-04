@@ -38,7 +38,7 @@ LASTMSG = {}
 # ========================= CONSTANTS ============================
 
 CUSTOM_TEXT = str(
-    PMPERMIT_TEXT) if PMPERMIT_TEXT else f"__Halo kawan, saya bot yang menjaga room chat AbingxUserbot {owner} di mohon jangan melakukan spam , kalau anda melakukan itu OTOMATIS saya akan memblockir anda!__ \n"
+    PMPERMIT_TEXT) if PMPERMIT_TEXT else f"__Halo kawan, saya bot yang menjaga room chat STINKY USERBOT {owner} di mohon jangan melakukan spam , kalau anda melakukan itu OTOMATIS saya akan memblockir anda!__ \n"
 DEF_UNAPPROVED_MSG = (
     "╔═════════════════════╗\n"
     "                ᴘʀɪᴠᴀᴄʏ ᴍᴇssᴀɢᴇ     \n"
@@ -47,7 +47,7 @@ DEF_UNAPPROVED_MSG = (
     f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ {owner} \nᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ ᴀɴᴅᴀ ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ \n"
     "╔═════════════════════╗\n"
     "│○› ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs           \n"
-    "│○› ᴊᴏɪɴ ᴛᴏʟ || @AbingSupport           \n"
+    "│○› ᴊᴏɪɴ ᴛᴏʟ || @Stinkys0upport           \n"
     "╚═════════════════════╝")
 # =================================================================
 
