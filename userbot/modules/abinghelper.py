@@ -7,22 +7,22 @@ from userbot.utils import edit_or_reply, bing_cmd
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
-                        "\n[Telegram](t.me/sayaabing)"
-                        "\n[Repo](https://github.com/S/AbingxUserbot)"
-                        "\n[Instagram](instagram.com/aabinggg)")
+                        "\n[Telegram](t.me/Callme_stinky)"
+                        "\n[Repo](https://github.com/Stinkyrz/StinkyXUbot)"
+                        "\n[Instagram](instagram.com/Riyan.rz)")
 
 
 @bing_cmd(pattern="vars$")
 async def var(m):
     await edit_or_reply(m,
                         f"**Disini Daftar Vars Dari {owner}:**\n"
-                        "\n[DAFTAR VARS](https://raw.githubusercontent.com/SayaAbing/AbingxUserbot/AbingxUserbot/varshelper.txt)")
+                        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Stinkyrz/StinkyXUbot/StinkyXUbot/varshelper.txt)")
 
 
 CMD_HELP.update({
     "helper":
     f"`{cmd}lhelp`\
-\nUsage: Bantuan Untuk AbingxUserbot.\
+\nUsage: Bantuan Untuk StinkyXUbot.\
 \n`{cmd}vars`\
 \nUsage: Melihat Daftar Vars."
 })
