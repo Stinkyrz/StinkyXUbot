@@ -49,7 +49,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "abing" + (str(who.id))[5:] + "ubot"
+        username = "Stinky" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -153,7 +153,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @AbingProject ⚡️"
+            bf, f"⚡️ Owner ~ {who.first_name} ⚡️\n\n⚡️ Powered By ~ @Stinkyrz ⚡️"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -283,8 +283,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="ᴀʙɪɴɢ ʟᴏɢs",
-                about="ᴍʏ ᴀʙɪɴɢ ʟᴏɢs ɢʀᴏᴜᴘ\n\n Join @AbingProject",
+                title="𝗟𝗼𝗴𝘀 𝗨𝗯𝗼𝘁 𝗦𝘁𝗶𝗻𝗸𝘆",
+                about="𝗟𝗼𝗴𝘀 𝗦𝘁𝗶𝗻𝗸𝘆 𝗚𝗿𝗼𝘂𝗽𝘀\n\n Join @Stinkyrz",
                 megagroup=True,
             ),
         )
