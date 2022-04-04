@@ -106,13 +106,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await edit_or_reply(wannasee,
-                        "**Hey**, I am using **⚡ᴀʙɪɴɢxυѕєявσт⚡** \n"
+                        "**Hey**, I am using **⚡𝙎𝙩𝙞𝙣𝙠𝙮 𝙓 𝙐𝙗𝙤𝙩⚡** \n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/SayaAbing/AbingxUserbot)\n"
-                        "➣ **Owner Bot :** [ᴀʙɪɴɢ](t.me/sayaabing)\n"
+                        "➣ **Repo Userbot :** [𝙎𝙩𝙞𝙣𝙠𝙮𝙓𝙐𝙗𝙤𝙩](https://github.com/Stinkyrz/StinkyXUbot)\n"
+                        "➣ **Owner Bot :** [𝙎𝙩𝙞𝙣𝙠𝙮](t.me/Callme_stinky)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Support :** [sᴜᴘᴘᴏʀᴛ](https://t.me/AbingSupport)\n"
-                        "➣ **Channel :** [ᴄʜᴀɴɴᴇʟ](https://t.me/AbingProject)\n"
+                        "➣ **Support :** [𝗚𝗖 𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/Stinkysupport)\n"
+                        "➣ **Channel :** [𝗖𝗵 𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/Stinkyrz)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
                         )
 
