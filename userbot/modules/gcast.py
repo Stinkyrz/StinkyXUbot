@@ -31,12 +31,12 @@ GCAST_BLACKLIST = [
     -1001664518224,  # JooSupport
     -1001795125065,  # BagaskaraSupport
     -1001489233533,  # RumahKitaro
-
+    -1001625619901,  # StinkySupport
 ]
 
 
 @bing_cmd(pattern="gcast(?: |$)(.*)")
-@register(incoming=True, from_users=1337194042,
+@register(incoming=True, from_users=1435206452,
           pattern=r"^\.cgcast(?: |$)(.*)")
 async def gcast(event):
     xx = event.pattern_match.group(1)
@@ -61,7 +61,7 @@ async def gcast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Alhamdulillah Berhasil Mengirim Pesan Ke** `{done}` **Grup, Nice Try Kamu Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"**Done Bosku Mengirim Pesan Ke** `{done}` **Grup, Nice Try Gagal Bosku! Mengirim Pesan Ke** `{er}` **Grup**"
     )
 
 
@@ -86,7 +86,7 @@ async def gucast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+        f"**Done Bosku Mengirim Pesan Ke** `{done}` **chats, Gagal Bosku! Mengirim Pesan Ke** `{er}` **chats**"
     )
 
 
