@@ -1,7 +1,7 @@
-# Copyright (C) 2021 Abing x Userbot
+# Copyright (C) 2021 Stinky x Userbot
 # Created by Kyy
 # Jangan hapus credit Anj!!!
-# Recode By Abing
+# Recode By Stinky
 
 
 from time import sleep
