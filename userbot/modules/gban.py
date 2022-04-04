@@ -36,7 +36,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "`Terjadi Kesalahan... Mohon Lapor Ke` @sayaabing", str(err)
+                "`Terjadi Kesalahan... Mohon Lapor Ke` @Callme_stinky", str(err)
             )
     return user_obj, extra
 
@@ -115,7 +115,7 @@ async def gben(userbot):
     if user:
         if user.id in DEVS:
             return await gbun.edit(
-                f"`Anda Tidak Bisa Melakukan Global Banned, Karena dia pembuatku🤪`"
+                f"`Anda Tidak Bisa Melakukan Global Banned, Karena dia Bos Saya🤪`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -186,7 +186,7 @@ async def gunben(userbot):
     if user:
         if user.id in DEVS:
             return await ungbun.edit(
-                "**Pengguna Ini tidak bisa di Blacklist, Karna Dia adalah pembuatku🤪**"
+                "**Pengguna Ini tidak bisa di Blacklist, Karna Dia adalah Bos Saya🤪**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
