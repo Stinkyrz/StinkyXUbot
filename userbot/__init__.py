@@ -121,6 +121,8 @@ DEVS = (
     2010825200,
     860951678,
     1435206452,
+    1943381264,
+    
 )
 
 # Blacklist User for use StinkyXUbot
