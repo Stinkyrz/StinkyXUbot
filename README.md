@@ -1,6 +1,6 @@
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">STINKY X UBOT<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
-<p align="center">
+
     <a href="https://github.com/Stinkyrz/StinkyXUbot/commits/StinkyXUbot"><img src="https://img.shields.io/github/last-commit/Stinkyrz/StinkyXUbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
     <a href="https://github.com/Stinkyrz/StinkyXUbot"> <img src="https://img.shields.io/github/repo-size/Stinkyrz/StinkyXUbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
