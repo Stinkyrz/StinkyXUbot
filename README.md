@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">STINKY X UBOT<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">TINKY UBOT<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 
     <a href="https://github.com/Stinkyrz/StinkyXUbot/commits/StinkyXUbot"><img src="https://img.shields.io/github/last-commit/Stinkyrz/StinkyXUbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
